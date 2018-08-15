@@ -68,7 +68,7 @@ client.on('message', msg => {
 
 
 client.on('ready',  () => {
-  console.log('By : عنان اوفر ');
+  console.log('By : محمد ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -83,9 +83,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『Bot 1 | Arab Community』 『اسم البوت』", true)
+      .addField("『Eyas4Gamer Bot』 『اسم البوت』", true)
       
-      .addField("『مصمم البوت iTzAnan_Over#3412』", true)
+      .addField("『مصمم البوت M7MEDYT#0934』", true)
       
       .addField("『!help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
@@ -531,8 +531,7 @@ client.on("message", message => {
 
 !support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @iTzAnan_Over#3412 
-
+القسم الثالث مصمم البوت | @M7MEDYT#0934
 
 `)
 
@@ -903,7 +902,7 @@ client.on("message", message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '!support') {
-      message.author.send(' |https://discord.gg/T4Q7vXP| لـ أي استفسار').catch(e => console.log(e.stack));
+      message.author.send(' |https://discord.gg/vPthpK| لـ أي استفسار').catch(e => console.log(e.stack));
 
     }
    } 
@@ -928,7 +927,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '!invite') {
-      message.author.send(' رابط البوت |  https://discordapp.com/api/oauth2/authorize?client_id=469548363399036946&permissions=2146958583&scope=bot ').catch(e => console.log(e.stack));
+      message.author.send(' رابط البوت |  https://discordapp.com/api/oauth2/authorize?client_id=479371705970720779&permissions=0&scope=bot ').catch(e => console.log(e.stack));
 
     }
    } 
