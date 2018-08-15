@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
+ client.user.setActivity("$$help",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,6 +26,9 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
+
+
+
 client.on('message', message => {
     if (message.author.bot) return;
     var prefix ="$$"
@@ -129,11 +131,11 @@ client.on('message', message => {
 
 ==================================================================
 
-Server support: https://discord.gg/BM2n7f
+Server support: https://discordgg/fxNGHR 
 
 ==================================================================
 
-bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=479371705970720779&permissions=0&scope=bot 
+bot invite link: https://discordappcom/api/oauth2/authorize?client_id=472224983943217175&permissions=2146958583&scope=bot 
 
 ==================================================================
 **
@@ -1184,5 +1186,7 @@ if(cmd === `${prefix}coins`) {
   message.channel.send(coinEmbed).then(msg => {msg.delete(5000)});
 }
 });
+
+
 
 client.login(process.env.BOT_TOKEN);
