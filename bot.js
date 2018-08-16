@@ -5,8 +5,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.user.setGame(` لى اضافه البوت لى سيرفرك !invite وشكرا`,"https://www.twitch.tv/Anime & Games")
-
 client.on('message', msg => {
   if (msg.content === 'باك') {
     msg.reply('ولكم منور يا عسل!');
