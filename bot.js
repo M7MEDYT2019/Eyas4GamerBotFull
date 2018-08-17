@@ -1338,15 +1338,6 @@ client.on('message', message => {
 
 
 
-
-
-const Discord = require("discord.js");
-const botconfig = require("../botconfig.json");
-const red = botconfig.red;
-const green = botconfig.green;
-const orange = botconfig.orange;
-const errors = require("../utils/errors.js");
-
 module.exports.run = async (bot, message, args) => {
     message.delete();
     if(args[0] == "help"){
