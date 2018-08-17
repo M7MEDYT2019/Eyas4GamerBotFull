@@ -1340,8 +1340,6 @@ client.on('message', message => {
 
 
 
-
-
 const Discord = require("discord.js");
 const botconfig = require("../botconfig.json");
 const red = botconfig.red;
@@ -1378,14 +1376,6 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
   name: "report"
 }
-
-
-
-
-
-
-
-
 
 
 
