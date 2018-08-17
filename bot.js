@@ -1321,6 +1321,9 @@ client.on("guildMemberAdd", member => {
 
 
 
+
+
+
 client.on('message', message => {
     var prefix = "$"
     if (message.content === prefix + "date") {
@@ -1331,6 +1334,11 @@ client.on('message', message => {
         message.channel.sendMessage( "التاريخ : " + اليوم + "-" + الشهر + "-" +السنة)
     }
 });
+
+
+
+
+
 
 
 
