@@ -865,7 +865,7 @@ client.on("guildCreate", guild => {
   
   
 client.on('ready', () => {
-   client.user.setGame(" !help | !invite ");
+   client.user.setGame(" !help | !invite ڜــڬــڔ̍ا ڷــڛــٺــڅــدامــڪــم ̨اڸــبــۄٺ ");
 }); 
 
 client.on("message", message => {
