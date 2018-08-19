@@ -1336,9 +1336,8 @@ client.on('message', message => {
 });
 
 
-const Eris = require("eris");
 var bot = new Eris("توكن البوت حقك");
-var id = "الآي دي حقْ الروم";
+var id = "480553537416331264";
 //** لاتعدل على شي تحت ذا **//
 bot.on("ready", () => {
 onstart();
