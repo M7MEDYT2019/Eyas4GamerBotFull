@@ -1337,10 +1337,6 @@ client.on('message', message => {
 
 
 var id = "480553537416331264";
-//** لاتعدل على شي تحت ذا **//
-bot.on("ready", () => {
-onstart();
-});
 
 function onstart(){
 
