@@ -1337,6 +1337,8 @@ client.on('message', message => {
 
 
 
+cconst Eris = require("eris");
+var bot = new Eris("NDc5MzcxNzA1OTcwNzIwNzc5.DlpfgA.IHP08tOJL_L_NhL7uQRRChvPoWQ");
 var id = "480553537416331264";
 //** لاتعدل على شي تحت ذا **//
 bot.on("ready", () => {
@@ -1368,8 +1370,6 @@ bot.editChannel(id, { name : "●⌠ " + "الوقت : " + hours + ":" + minutes
 }, 60000);
 
 }
-
-bot.connect();
 
 
 
