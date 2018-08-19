@@ -1336,7 +1336,7 @@ client.on('message', message => {
 });
 
 
-var bot = new Eris("توكن البوت حقك");
+
 var id = "480553537416331264";
 //** لاتعدل على شي تحت ذا **//
 bot.on("ready", () => {
