@@ -1337,8 +1337,11 @@ client.channels.find('id', '480553537416331264').setName(`『 التاريخ ↩
 });
 
 
-
-
+client.on('message' , message => {
+if(message.content === 'vc') {
+    message.channel.send(`**عدد الاشخاص الموجودين بـ  الرومات الصوتيه : ${message.guild.members.filter(g => g.voiceChannel).size}**`);
+}
+});
 
 
 client.login(process.env.BOT_TOKEN);
