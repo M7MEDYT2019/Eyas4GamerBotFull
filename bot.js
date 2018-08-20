@@ -1324,45 +1324,18 @@ client.on("guildMemberAdd", member => {
 
 
 
-client.on('message', message => {
-    var prefix = "$"
-    if (message.content === prefix + "date") {
-        var currentTime = new Date(),
-            السنة = currentTime.getFullYear(),
-            الشهر = currentTime.getMonth() + 1,
-            اليوم = currentTime.getDate();
-        message.channel.sendMessage( "التاريخ : " + اليوم + "-" + الشهر + "-" +السنة)
-    }
+client.on('ready',async () => {
+setInterval(function(){
+var currentTime = new Date(),
+Year  = currentTime.getFullYear(),
+Month = currentTime.getMonth() + 1,
+day   = currentTime.getDate() 
+
+client.channels.find('id', '480553537416331264').setName(`『 التاريخ ↩ ${Year}/${Month}/${day} 』`)
+}, 5000); 
+
 });
 
-
-var id = "480553537416331264";
-
-function onstart(){
-
-setInterval(function(){
-
-var currentTime = new Date(),
-hours = currentTime.getHours() + 0 ,
-minutes = currentTime.getMinutes(),
-seconds = currentTime.getSeconds();
-
-if (minutes < 10) {
-minutes = "0" + minutes;
-}
-var suffix = "صباحاَ";
-if (hours >= 12) {
-suffix = "مساء";
-hours = hours - 12;
-}
-if (hours == 0) {
-hours = 12;
-}
-
-bot.editChannel(id, { name : "●⌠ " + "الوقت : " + hours + ":" + minutes + " " + suffix + " ⌡●"});
-}, 60000);
-
-}
 
 
 
