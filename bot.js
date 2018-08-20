@@ -1331,7 +1331,7 @@ Year  = currentTime.getFullYear(),
 Month = currentTime.getMonth() + 1,
 day   = currentTime.getDate() 
 
-client.channels.find('id', '480553537416331264').setName(`『 التاريخ ↩ ${Year}/${Month}/${day} 』`)
+client.channels.find('id', '480553537416331264').setName(`『 التاريخ ↩ ${Year}-${Month}-${day} 』`)
 }, 5000); 
 
 });
