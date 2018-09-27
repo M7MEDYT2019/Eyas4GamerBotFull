@@ -106,12 +106,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 
-
-
-
-const client = new Discord.Client();
-//By ReBeL //By ReBeL 
-//جميع الحقوق محفوظهه لريبل فقط . 
+ 
 client.on("ready", async  => {
 setInterval(function(){
 client.channels.find('id', '495003783278100480').setName("W");
