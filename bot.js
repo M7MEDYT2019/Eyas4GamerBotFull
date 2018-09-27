@@ -108,7 +108,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 
-const Discord = require('discord.js');
+
 const client = new Discord.Client();
 //By ReBeL //By ReBeL 
 //جميع الحقوق محفوظهه لريبل فقط . 
