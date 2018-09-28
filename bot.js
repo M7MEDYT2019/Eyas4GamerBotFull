@@ -116,7 +116,7 @@ client.channels.find('id', '495211986582503424').setName("And");
 client.channels.find('id', '495211986582503424').setName("AndDo");
 client.channels.find('id', '495211986582503424').setName("AndDoDa");
 client.channels.find('id', '495211986582503424').setName("AndDoDaJr");
-  }, 3000);
+  }, 10);
 });
 //By ReBeL 
 client.login("TOKEN");
