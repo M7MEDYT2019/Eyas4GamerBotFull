@@ -106,31 +106,6 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 
- 
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '495003783278100480').setName("W");
-client.channels.find('id', '495003783278100480').setName("We");
-client.channels.find('id', '495003783278100480').setName("Wel");
-client.channels.find('id', '495003783278100480').setName("Welc");
-client.channels.find('id', '495003783278100480').setName("Welco");
-client.channels.find('id', '495003783278100480').setName("Welcom");
-client.channels.find('id', '495003783278100480').setName("Welcome");
-client.channels.find('id', '495003783278100480').setName("Welcome T");
-client.channels.find('id', '495003783278100480').setName("Welcome To");
-client.channels.find('id', '495003783278100480').setName("Welcome To W");
-client.channels.find('id', '495003783278100480').setName("Welcome To est");
-client.channels.find('id', '495003783278100480').setName("Welcome To Co");
-client.channels.find('id', '495003783278100480').setName("Welcome To st");
-client.channels.find('id', '495003783278100480').setName("Welcome To westcost");
-  }, 3000);
-});
-//By ReBeL 
-client.login("TOKEN");
-
-
-
-
 
 
 
