@@ -5,9 +5,9 @@ client.on('ready', () => {
 });
 /*جميع الحقوق محفوظهه لريبل ولسيرفر كودز
 رآح يرسل للأونر تحذير + م يتطلب ملفات سويته لكم داتا مؤقت
-سو روم بأسم log 
+سو روم بأسم log
 أو غيره من الكود عشان يرسل هنا التحذير
-nvm i 10 
+nvm i 10
 nvm use 10
 npm i discord.js
 */
@@ -20,17 +20,17 @@ guild.fetchAuditLogs({
     type: 22
 }).then(audit => {
     let banner = audit.entries.map(banner => banner.executor.id)
-    let bans = guilds[guild.id + banner].bans || 0 
+    let bans = guilds[guild.id + banner].bans || 0
     guilds[guild.id + banner] = {
         bans: 0
     }
-      bans[guilds.id].bans += 1; 
+      bans[guilds.id].bans += 1;
 if(guilds[guild.id + banner].bans >= Onumber) {
 try {
 let roles = guild.members.get(banner).roles.array();
 guild.members.get(banner).removeRoles(roles);
   guild.guild.member(banner).kick();
-
+ 
 } catch (error) {
 console.log(error)
 try {
@@ -75,7 +75,7 @@ channel.guild.owner.send(`<@!${channelcreate.id}>
  channelc[channelcreate.id].created = 0;
   },Otime)
   });
-
+ 
 let channelr = {};
   client.on('channelDelete', async (channel) => {
   const rebellog = client.channels.find("name", "log"),
