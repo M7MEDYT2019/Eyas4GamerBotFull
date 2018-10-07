@@ -105,21 +105,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
 
 
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '495211986582503424').setName("Dev");
-client.channels.find('id', '495211986582503424').setName("By");
-client.channels.find('id', '495211986582503424').setName("M7M");
-client.channels.find('id', '495211986582503424').setName("M7MED");
-client.channels.find('id', '495211986582503424').setName("M7MEDYT");
-client.channels.find('id', '495211986582503424').setName("And");
-client.channels.find('id', '495211986582503424').setName("AndDo");
-client.channels.find('id', '495211986582503424').setName("AndDoDa");
-client.channels.find('id', '495211986582503424').setName("AndDoDaJr");
-  }, 10);
-});
-//By ReBeL 
-client.login("TOKEN");
+
 
 client.on('message',async message => {
     if(message.content.startsWith(prefix + "setVoice")) {
